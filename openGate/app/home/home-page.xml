@@ -1,0 +1,23 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Apriti Sesamo"></Label>
+    </ActionBar>
+    <ScrollView width="auto" height="auto">
+    <StackLayout>
+        <Image id="image" tap="onTap" src="{{imageurl}}"></Image>
+
+        <GridLayout rows="auto auto auto" id="gridcancelloautomatico" visibility="collapsed" columns="* auto" class="m-5">
+            <Label id="lbl" text="Cancello Automatico" textWrap="true" row="0" col="0" />
+            <Switch checked="{{autoOpenGate}}" isEnabled="{{!changingGate && !autoOpenGateForced}}" id="switch" row="0" col="1"/>
+
+        </GridLayout>
+
+        <StackLayout id="container"/>
+    </StackLayout>
+
+
+    </ScrollView>
+</Page>
