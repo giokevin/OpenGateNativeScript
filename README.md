@@ -11,7 +11,7 @@
 
 ### How it works:
 
-Once filled the information required like the username & passowrd, the Url to the API, the application start to get the position "slowly" for battery saving, when in the activate zone the application need to be precise so the position start to be obtained in a "fast way", when in the safe zone ( this rapresents your garden ) everything is deactivated and the magnetometer is started ( the magnetometer serve as a locker, when the smartphone is nearby it this means that you are inside the home, this is the solution that worked for me, feel free to find anky other kind of indoor localization ) once near the magnet the application goes into the lock mode. To reactivate everything just move out the smartphone from the magnetic field, the application will start to finding the GPS coordinates.
+Once filled the information required like the username & password, the Url to the API, the application start to get the position "slowly" for battery saving, when in the activate zone the application need to be precise so the position start to be obtained in a "fast way", when in the safe zone ( this rapresents your garden ) everything is deactivated and the magnetometer is started ( the magnetometer serve as a locker, when the smartphone is nearby it means that you are inside the home, this is the solution that worked for me, feel free to find any other kind of indoor localization ) once near the magnet the application goes into the lock mode. To reactivate everything just move out the smartphone from the magnetic field, the application will start to finding the GPS coordinates.
 
 ### PHASE 1 - Configuration
 
