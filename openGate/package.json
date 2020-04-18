@@ -18,7 +18,7 @@
     "tns-core-modules": "~5.2.0"
   },
   "devDependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "nativescript-dev-webpack": "~0.20.0",
     "webpack-obfuscator": "^0.18.0"
   },
